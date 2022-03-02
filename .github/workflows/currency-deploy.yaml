@@ -25,4 +25,5 @@ jobs:
       run: sudo npm install -g surge
 
     - name: Deploy to Surge
-      run: surge ./build asinlab-ashraf-currency.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      # run: surge ./build asinlab-ashraf-currency.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build asinlab-ashraf-translate.surge.sh --token ${{ secrets.SURGE_TOKEN }}
